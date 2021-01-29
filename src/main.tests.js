@@ -1,6 +1,8 @@
 import home from './pom/login';
 
-const url = "http://testapp.galenframework.com/";
+require('dotenv').config();
+
+const url = process.env.URL;
 
 fixture("test")
     .page(url)
