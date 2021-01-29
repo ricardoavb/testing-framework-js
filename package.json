@@ -1,0 +1,12 @@
+{
+  "name": "testing_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome ./src/main.tests.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

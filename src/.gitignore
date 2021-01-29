@@ -1,0 +1,15 @@
+# Files and folders to be ignored
+
+node_modules/
+jspm_packages/
+
+.env
+.env.test
+.env*.local
+
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+*.code-workspace
+
+.vscode-test
